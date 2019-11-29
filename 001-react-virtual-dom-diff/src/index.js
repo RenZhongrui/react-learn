@@ -18,3 +18,5 @@ let el = render(virtualDom);
 renderDom(el,window.root);
 console.log(el);
 console.log(virtualDom);
+
+// DOM diif 比较的是两个虚拟DOM的区别
